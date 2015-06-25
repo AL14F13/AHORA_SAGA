@@ -1,5 +1,5 @@
 // JavaScript Document
-//$(document).ready(function(e) {
+$(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
 	$('#btn_panel_crepusculo').on('tap',function(){
 		navigator.vibrate(1000);
@@ -28,6 +28,6 @@ document.addEventListener("deviceready",function(){
 		navigator.vibrate(1000);
 		
 	});
-//}); 
+}); 
 });
 
